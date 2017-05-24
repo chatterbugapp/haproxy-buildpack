@@ -3,6 +3,7 @@
 
 set -ex
 
+export USE_OPENSSL=true
 BUILD_DIR=$1
 CACHE_DIR=$2
 VERSION_DIR=`cd $(dirname $0); cd ..; pwd`
